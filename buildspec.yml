@@ -14,7 +14,3 @@ phases:
     - echo Build completed
     - mvn package
     - mv target/employee-management-0.0.1-SNAPSHOT.war employee-management-0.0.1-SNAPSHOT.war
-artifacts:
-  files:
-  - employee-management-0.0.1-SNAPSHOT.war
-  - .ebextensions/**/*
